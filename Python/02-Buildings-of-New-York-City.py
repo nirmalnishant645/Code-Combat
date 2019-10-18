@@ -1,4 +1,5 @@
-def secondLargest(arr): # Function to find the second largest
+# Function to find the second largest
+def secondLargest(arr): 
     if len(arr) <= 1:
         return -1
     largest, secondL = arr[0], -1
